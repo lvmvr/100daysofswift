@@ -26,5 +26,13 @@ var travel = { (destination: String) in
 travel("Brazil")
 
 // NOTE: We do not include the parameter name inside the argument body like we do for functions
+// We also do not include the parameter label name inside closures
 
-// MARK: 
+// MARK: Returning Values from a Closure
+// Closures can not only print values, but return values similar to that of Functions
+// Return type will go before the "in" statement
+
+let drivingReturned = { (place: String) -> String in
+    return "We are currently driving to \(place) today."
+}
+drivingReturned("Texas")
