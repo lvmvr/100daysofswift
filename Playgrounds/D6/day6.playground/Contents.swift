@@ -92,7 +92,3 @@ func learning(subject course: String, at university: () -> Void) {
 learning(subject: "Chinese") {
     print("In class, brb...")
 }
-
-// MARK:
-
-
